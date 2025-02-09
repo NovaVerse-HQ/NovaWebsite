@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Lexend', sans-serif;
+    background-color: #f1f1f1;
 }
 
 .HeadMenu {
@@ -155,3 +156,40 @@ body {
     transform: translateX(0);
 }
 
+.InfoContainer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.InfoSide {
+    display: flex; /* Enable Flexbox on the parent */
+    justify-content: center; /* Center horizontally */
+    /* If you want the list items themselves to be centered within the <ul>: */
+    ul {
+      display: flex;
+      flex-direction: column; /* Arrange items vertically */
+      align-items: center; /* Center items horizontally */
+      list-style: none; /* Optional: Remove bullet points */
+      padding: 0; /* Optional: Remove default padding */
+    }
+}
+
+.scrollable-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px); /* Example: Adjust minmax as needed */
+    gap: 10px; /* Adjust gap as needed */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-y: hidden;
+    padding-bottom: 20px; /* Add padding to account for scrollbar */
+
+  }
+  
+  .scrollable-grid > * {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 0.4px solid rgb(109, 82, 82);
+    border-radius: 30px;
+    padding: 150px 20px; /* Keep your padding */
+    text-align: center;
+}
