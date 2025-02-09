@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.HeadMenu {
+    font-family: 'Lexend', sans-serif;
+    background-color: #1c1c1c;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    color: #e8e8e8;
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly */
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.StartNova {
+    display: flex;
+    align-items: center;
+}
+
+.StartNova img {
+    width: 60px;
+}
+
+.StartNova p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #e8e8e8;
+}
+
+/* Navigation Styling */
+.MiddleNova ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds spacing between items */
+}
+
+.MiddleNova li {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 3px 4px;
+    border-radius: 10px;
+}
+
+.MiddleNova li:hover {
+    background-color: #3e3e3e; /* Lighten color on hover */
+}
+
+.SignUpNOVA ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds spacing between items */
+}
+
+.SignUpNOVA li {
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    padding: 3px 4px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.SignUpNOVA li:hover {
+    background-color: #3e3e3e; /* Lighten color on hover */
+}
+
+.FirstShowcase {
+    position: relative;
+    text-align: left;
+    color: white;
+    width: 100%;
+}
+
+.ContainerShowcase {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(69, 69, 69, 0.6);
+}
+
+.NovaTitle {
+    margin: 2px 0px;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.NovaDescription {
+    margin: 2px 0px 13px 0px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.BuyNowButton {
+    padding: 15px;
+    margin: 0px 10px 0px 0px;
+    background-color: transparent;
+    border: 0.4px solid white;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Lexend';
+    transition: background-color 0.15s, color 0.15s;
+    cursor: pointer;
+}
+
+.WhyButton {
+    padding: 15px;
+    margin: 0px 10px 0px 0px;
+    background-color: white;
+    border: 0.4px solid white;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    border-radius: 12px;
+    font-family: 'Lexend';
+    cursor: pointer;
+}
+
+.BuyNowButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.Info {
+    margin: 0px 15px;
+}
+
+.TitleNova span {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    background: linear-gradient(to bottom right, #f601ff, #ff006a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.TitleNova:hover span {
+    opacity: 1;
+    transform: translateX(0);
+}
+
