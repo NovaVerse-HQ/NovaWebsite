@@ -222,6 +222,17 @@ body {
 
 }
 
+.WhyProduct:hover {
+    background-color: lightgrey; /* LightGrey on hover */
+    transform: scale(1.02);
+}
+
+.BuyThisProduct:hover {
+    background-color: #3b3b3b; /* Lighter colour on hover */
+    transform: scale(1.02);
+}
+
+
 .ProductTitle {
     font-weight: 600;
     font-size: 24px;
