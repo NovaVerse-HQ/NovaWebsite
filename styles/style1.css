@@ -193,3 +193,43 @@ body {
     padding: 150px 20px; /* Keep your padding */
     text-align: center;
 }
+
+.BuyThisProduct {
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 5px;
+    border: 0.4px solid black;
+    width: 100%;
+    font-family: 'Lexend';
+    font-size: 16px;
+    padding: 10px 10px;
+    display: block;
+    cursor: pointer;
+    margin: 0px 0px 5px 0px
+}
+
+.WhyProduct {
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    border: 0.4px solid black;
+    width: 100%;
+    font-family: 'Lexend';
+    font-size: 16px;
+    padding: 10px 10px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.ProductTitle {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 1px 0px;
+}
+
+.PriceProduct {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 1px 0px;
+}
