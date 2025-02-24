@@ -331,3 +331,7 @@
 .social-btn:hover {
     transform: scale(1.2); /* Makes the button 20% bigger on hover */
 }
+
+.trackoftheweek {
+    text-align: center;
+}
