@@ -381,7 +381,7 @@
 }
 
 .teams {
-    margin: 9px 0px 0px 0px;
+    text-align: center;
 }
 
 .link:visited {
@@ -402,4 +402,8 @@
 .link:hover {
     color: #1c1c1c;
     text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
