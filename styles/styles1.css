@@ -344,13 +344,13 @@
     margin: 0px 0px 0px 0px;
 }
 
-.TeamOwnerContainer {
+.TeamContainer {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.TeamOwnerContainer > div {
+.TeamContainer > div {
     margin: 5px 15px 0px 5px;
 }
 
@@ -378,6 +378,26 @@
 
 .Ollie {
     background-color: #00b646;
+}
+
+.flapa {
+    background-color: #0097FF ;
+}
+
+.Kate {
+    background-color: #D2042D;
+}
+
+.wedge {
+    background-color: #4d59ff;
+}
+
+.Sweet {
+    background-color: #ff7ec9;
+}
+
+.complex {
+    background-color: #ea9341;
 }
 
 .teams {
