@@ -1,7 +1,22 @@
-async function aaa() {
-    const DiscordFetch = await fetch('https://discord.com/api/v10/guilds/1133911738379677717');
-        const DiscordData = await DiscordFetch.json();
-        console.log(DiscordData);
+async function retrievePFP(uid) {
+    const RobloxData = await fetch(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${uid}&size=720x720&format=Png&isCircular=false`)
+    const RobloxDataJSON = await RobloxData.json()
+    return RobloxDataJSON[0].data.imageUrl
 }
 
-await aaa()
+(async () => { // Async IIFE
+    try {
+        const BreadPFP = await retrievePFP(4831046746);
+        document.getElementById('TiiPFP').src = BreadPFP;
+
+        const PoofPFP = await retrievePFP(125130203);
+        document.getElementById('PoofPFP').src = PoofPFP;
+
+        const DaniPFP = await retrievePFP(125130203);
+        document.getElementById('DaniPFP').src = DaniPFP;
+    } catch (error) {
+        console.error("Error retrieving or setting image:", error);
+        // Optionally, set a placeholder image or display an error message
+        document.getElementById('TiiPFP').src = "placeholder.png";
+    }
+})();

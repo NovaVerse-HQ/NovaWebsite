@@ -335,3 +335,71 @@
 .trackoftheweek {
     text-align: center;
 }
+
+.MTTHeader {
+    text-align: center;
+}
+
+.MTTHeader > h1, .MTTHeader > p{
+    margin: 0px 0px 0px 0px;
+}
+
+.TeamOwnerContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.TeamOwnerContainer > div {
+    margin: 5px 15px 0px 5px;
+}
+
+.personcontainer {
+    width: 250px;
+}
+
+.personcontainer > img {
+    width: 100%;
+    border-radius: 100%;
+    border: 1.5px solid #707070ad;
+}
+
+.TiiLxm {
+    background-color: rgba(102, 181, 255, 0.65);
+}
+
+.PoofBooth {
+    background-color: #7A41EA;
+}
+
+.Dani {
+    background-color: #5C4033;
+}
+
+.Ollie {
+    background-color: #00b646;
+}
+
+.teams {
+    margin: 9px 0px 0px 0px;
+}
+
+.link:visited {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.link:link {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.link:active {
+    color: #1c1c1c;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #1c1c1c;
+    text-decoration: underline;
+}
