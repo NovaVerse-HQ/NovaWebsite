@@ -427,3 +427,45 @@
 html {
     scroll-behavior: smooth;
 }
+
+.webfooter {
+    background-color: #1c1c1c;
+    color: #e8e8e8;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.Qlinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Qlinks > ul {
+    list-style-type: none;
+}
+
+.Link {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.Link:visited {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: #e8e8e8;
+    text-decoration: underline;
+}
+
+.Link:link {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.Link:active {
+    color: #e8e8e8;
+    text-decoration: none;
+}
