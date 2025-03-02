@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/styles1.css">
+    <link rel="icon" href="images/NovaLogo.png" type="image/x-icon">
     <title>NovaVerse</title>
-    <script src="scripts/index.js" type="module"></script>
 </head>
+
 <body>
-    <iframe src="https://novaverse.betteruptime.com/badge?theme=light" width="177" height="30" frameborder="0" scrolling="no" class="HeadService"></iframe>
+    <iframe src="https://novaverse.betteruptime.com/badge?theme=light" width="177" height="30" frameborder="0"
+        scrolling="no" class="HeadService"></iframe>
     <div>
         <div class="HeadMenu">
             <div class="StartNova">
                 <img src="images/NovaLogo.png" alt="NovaVerse Logo">
-                <p>NovaVerse</p>
+                <p>NovaVerse Solutions</p>
             </div>
             <div class="MiddleNova">
                 <ul>
@@ -24,12 +27,15 @@
                     <li>Products</li>
                     <li>Documents</li>
                     <li>Support</li>
-                    <li>Our socials</li>
+                    <li><a href="#socials" style="text-decoration: none; color: inherit; cursor: pointer;">Our
+                            socials</a></li>
                 </ul>
             </div>
             <div class="SignUpNOVA">
                 <ul>
-                    <li> <a href="https://discord.com/oauth2/authorize?client_id=1328741936063840259&response_type=code&redirect_uri=https%3A%2F%2Fnovaapi-mu.vercel.app%2Fapi%2Fdiscord%2Flogin&scope=identify+guilds+email+connections">Sign Up/Login</a></li>
+                    <li> <a
+                            href="https://discord.com/oauth2/authorize?client_id=1328741936063840259&response_type=code&redirect_uri=https%3A%2F%2Fnovaapi-mu.vercel.app%2Fapi%2Fdiscord%2Flogin&scope=identify+guilds+email+connections">Sign
+                            Up/Login</a></li>
                     <li style="display: none;">Account</li>
                 </ul>
             </div>
@@ -46,25 +52,35 @@
         <div class="InfoContainer">
             <div class="InfoSide">
                 <ul>
-                    <li><h3>Content:</h3></li>
                     <li>
-                        <a href="#whynova" class="side-button">Why NovaVerse?</a>
+                        <h3>Content:</h3>
+                    </li>
+                    <li>
+                        <a href="#whynova" class="side-button">Why NovaVerse Solutions?</a>
                     </li>
                     <li>
                         <a href="" class="side-button">Our Products</a>
                     </li>
                     <li>
-    
+
                     </li>
                 </ul>
             </div>
             <div class="div">
                 <div>
-                    <h1 class="TitleNova" id="whynova"><span>#</span>  Why NovaVerse?</h1>
-                    <p>NovaVerse is dedicated to delivering simple, yet innovative products that enhance your Roblox experience. What sets us apart? We put you first. Our personalized support ensures your needs are met. Join our thriving community or our Roblox Group to shape the future of NovaVerse. We offer a range of products, from basic tech like TVs to cutting-edge systems like self-checkouts and custom operating systems. We believe in giving back, which is why we host real-life events like Recycling Day and Tech Day, complete with exciting prizes like product licenses and cash rewards. Looking ahead, we're expanding into APIs, bots, simplifying and accelerating your development process. <b>Want to be part of the NovaVerse story?</b> Partner with us, report bugs, share your suggestions, or explore career opportunities!</p>
+                    <h1 class="TitleNova" id="whynova"><span>#</span> Why NovaVerse Solutions?</h1>
+                    <p>NovaVerse is dedicated to delivering simple, yet innovative products that enhance your Roblox
+                        experience. What sets us apart? We put you first. Our personalized support ensures your needs
+                        are met. Join our thriving community or our Roblox Group to shape the future of NovaVerse. We
+                        offer a range of products, from basic tech like TVs to cutting-edge systems like self-checkouts
+                        and custom operating systems. We believe in giving back, which is why we host real-life events
+                        like Recycling Day and Tech Day, complete with exciting prizes like product licenses and cash
+                        rewards. Looking ahead, we're expanding into APIs, bots, simplifying and accelerating your
+                        development process. <b>Want to be part of the NovaVerse story?</b> Partner with us, report
+                        bugs, share your suggestions, or explore career opportunities!</p>
                 </div>
                 <div>
-                    <h1 class="TitleNova"><span>#</span>  Our Products</h1>
+                    <h1 class="TitleNova"><span>#</span> Our Products</h1>
                     <div>
                         <div class="scrollable-grid">
                             <div>
@@ -75,6 +91,8 @@
                                     </div>
                                     <button class="BuyThisProduct">Buy this!</button>
                                     <button class="WhyProduct">Why?</button>
+                                    <!-- This ensures it scrolls just above the socials text (atleast for me) -->
+                                    <div id="socials"></div>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +102,132 @@
         </div>
         <div class="Socials">
             <h1>Our Socials!</h1>
+            <div class="social-buttons">
+                <a href="https://www.tiktok.com/@novaverse_?_t=ZN-8uC6kEvinUU&_r=1" class="social-btn">
+                    <img src="images/TikTokLogo.png" alt="TikTok">
+                </a>
+                <a href="https://discord.novaverse.cc" class="social-btn">
+                    <img src="images/DiscordLogoDark.png" alt="Discord">
+                </a>
+                <a href="https://www.roblox.com/communities/32850834/BloxVerse-Studio#!/about" class="social-btn">
+                    <img src="images/RobloxLogoDark.png" alt="Roblox">
+                </a>
+            </div>
+        </div>
+        <div class="trackoftheweek">
+            <h1>Track of the week</h1>
+            <div class="track">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1gFNm7cXfG1vSMcxPpSxec?utm_source=generator" width="50%"
+                    height="200" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <div>
+            <div class="MTTHeader">
+                <h1>Meet the team!</h1>
+                <p>They play a huge role in NovaVerse Solutions!</p>
+            </div>
+            <div class="teams">
+                <h2>Ownership Team</h2>
+                <div class="TeamContainer">
+                    <div class="personcontainer">
+                        <img src="https://t5.rbxcdn.com/30DAY-AvatarHeadshot-1A47D66AF0BC181E508A47CF88CDAD37-Png"
+                            alt="TiiLxm Profile Picture" id="TiiPFP" class="TiiLxm">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/4831046746/profile">Bread (@TiiLxm)</a></p>
+                        <h3>Chairman</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t5.rbxcdn.com/30DAY-AvatarHeadshot-FA8F7B19C2287B940DD81C962B7FC473-Png"
+                            alt="PoofBooth Profile Picture" id="PoofPFP" class="Poofbooth">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/125130203/profile">Poofbooth (@Poofbooth)</a></p>
+                        <h3>Vice Chairwoman</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t0.rbxcdn.com/30DAY-AvatarHeadshot-527EDB8D0712E34E84D42138FEDFBC6C-Png"
+                            alt="Dani's Profile Picture" id="DaniPFP" class="Dani">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/7560315106/profile">Dani (@daniiixqwx)</a></p>
+                        <h3>Vice Chairwoman</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t7.rbxcdn.com/30DAY-AvatarHeadshot-305EEA23DFDAF740DF7140ED724153D5-Png"
+                            alt="Ollie's Profile Picture" id="OlliePFP" class="Ollie">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/1565381600/profile">Toast (@olliebobsg)</a></p>
+                        <h3>Vice Chairman</h3>
+                    </div>
+                </div>
+                <h2>Board Of Directors</h2>
+                <div class="TeamContainer">
+                    <div class="personcontainer">
+                        <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-BEE0FFC3C00984CA0C15A7A603572D85-Png/720/720/AvatarHeadshot/Webp/noFilter"
+                            alt="Flapa's Profile Picture" id="flapaPFP" class="flapa">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/786251706/profile">flapa (@APKFlappy01)</a></p>
+                        <h3>Support Team</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t7.rbxcdn.com/30DAY-AvatarHeadshot-EF930D5255D6B9819C11F07391CD2926-Png"
+                            alt="Nadav's Profile Picture" id="wedgePFP" class="wedge">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/2444834089/profile?">Wedge (@Nadav644339)</a></p>
+                        <h3>Support Team</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t5.rbxcdn.com/30DAY-AvatarHeadshot-C8949A0E2B9B186498E6A7B327C01A00-Png"
+                            alt="Kate Profile Picture" id="KatePFP" class="Kate">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/1957078801/profile">katsters (@SimplyxKateXxx)</a>
+                        </p>
+                        <h3>Public Relations</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t5.rbxcdn.com/30DAY-AvatarHeadshot-AB9086E6035F203668A78233C41F8D35-Png"
+                            alt="Sweet Profile Picture" id="sweetPFP" class="Sweet">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/2018556107/profile">sweetcatypinklily
+                                (@sweetcatypinklily)</a></p>
+                        <h3>Public Relations</h3>
+                    </div>
+                    <div class="personcontainer">
+                        <img src="https://t0.rbxcdn.com/30DAY-AvatarHeadshot-FD957A2B4D08F94A8B10318794D62F57-Png"
+                            alt="Complex's Profile Picture" id="complexPFP" class="complex">
+                        <p class="personTeamName"><a class="link" target="_blank"
+                                href="https://www.roblox.com/users/5585756035/profile">Complex (@Worker6872)</a></p>
+                        <h3>Alliances</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+        <div class="webfooter">
+            <div class="Qlinks">
+            <ul>
+                <li><b>Roblox Links</b></li>
+                <div style="padding: 6px;"></div>
+                <li><a href="https://www.roblox.com/games/107107808839281/NovaVerse-Product-Hub" class="Link">Product Hub</a></li>
+                <li><a href="https://www.roblox.com/communities/32850834/BloxVerse-Studio#!/about" class="Link">ROBLOX Group</a></li>
+            </ul>
+            <ul>
+                <li><b>Documents</b></li>
+                <div style="padding: 6px;"></div>
+                <li><a href="https://docs.google.com/document/d/19QCwBJsTd7Ah4YFicYDZ1fmej7s2IJoUwtwON85_Nw8/edit?usp=sharing" class="Link">Terms of Use</a></li>
+                <li><a href="https://docs.google.com/document/d/1e2wm24alMkUJrfGFffyD_Z2UkJ7fqkrGj08Eg6HsDI4/edit?usp=sharing" class="Link">Alliances</a></li>
+            </ul>
+            <ul>
+                <li><b>External Links</b></li>
+                <div style="padding: 6px;"></div>
+                <li><a href="https://discord.novaverse.cc" class="Link">Discord Server</a></li>
+                <li><a href="https://status.novaverse.cc" class="Link">Status Website</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 NovaVerse Solutions</p>
+    </div>
+   
 </body>
+
 </html>
