@@ -15,60 +15,55 @@
 <body>
     <iframe src="https://novaverse.betteruptime.com/badge?theme=light" width="177" height="30" frameborder="0"
         scrolling="no" class="HeadService"></iframe>
-    <div>
-        <div class="HeadMenu">
-            <div class="StartNova">
-                <img src="images/NovaLogo.png" alt="NovaVerse Logo">
-                <p>NovaVerse Solutions</p>
+        <div class="CurtainMobile" id="curtain">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About us</a>
+                <a href="#">Products</a>
+                <a href="#">Documents</a>
+                <a href="#">Support</a>
+                <a href="#">Socials</a>
             </div>
-            <div class="MiddleNova">
-                <ul>
-                    <li>About us</li>
-                    <li>Products</li>
-                    <li>Documents</li>
-                    <li>Support</li>
-                    <li><a href="#socials" style="text-decoration: none; color: inherit; cursor: pointer;">Our
-                            socials</a></li>
-                </ul>
-            </div>
-            <div class="SignUpNOVA">
-                <ul>
-                    <li> <a
-                            href="https://discord.com/oauth2/authorize?client_id=1328741936063840259&response_type=code&redirect_uri=https%3A%2F%2Fnovaapi-mu.vercel.app%2Fapi%2Fdiscord%2Flogin&scope=identify+guilds+email+connections">Sign
-                            Up/Login</a></li>
-                    <li style="display: none;">Account</li>
-                </ul>
-            </div>
+        </div>
+        <div>
+            <div class="HeadMenu" id="navbar">
+                <div class="MobileSet" onclick="openNav()">
+                    <img src="images/menu-burger.png" alt="Menu-burger" width="100%">
+                </div>
+                <div class="StartNova">
+                    <img src="images/NovaLogo.png" alt="NovaVerse Logo">
+                    <p>NovaVerse Solutions</p>
+                </div>
+                <div class="MiddleNova">
+                    <ul>
+                        <li>About us</li>
+                        <li>Products</li>
+                        <li>Documents</li>
+                        <li>Support</li>
+                        <li><a href="https://commissions.novaverse.cc">Commissions</a></li>
+                        <li>
+                            <a href="#socials" style="text-decoration: none; color: inherit; cursor: pointer;">
+                            Our socials
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="SignUpNOVA">
+                    <ul>
+                        <li> <a
+                                href="login.html">Sign
+                                Up/Login</a></li>
+                        <li style="display: none;">Account</li>
+                    </ul>
+                </div>
         </div>
         <div class="FirstShowcase">
             <img src="images/Screenshot 2025-02-02 081824.png" alt="NovaTV image." width="100%">
-            <div class="ContainerShowcase">
-                <p class="NovaTitle">NovaTV</p>
-                <p class="NovaDescription">Watching events made easier.</p>
-                <button class="BuyNowButton">Buy Now</button><button class="WhyButton">Why this?</button>
-            </div>
         </div>
         <br>
-        <div class="InfoContainer">
-            <div class="InfoSide">
-                <ul>
-                    <li>
-                        <h3>Content:</h3>
-                    </li>
-                    <li>
-                        <a href="#whynova" class="side-button">Why NovaVerse Solutions?</a>
-                    </li>
-                    <li>
-                        <a href="" class="side-button">Our Products</a>
-                    </li>
-                    <li>
-
-                    </li>
-                </ul>
-            </div>
-            <div class="div">
+            <div class="div" style="margin: 50px;">
                 <div>
-                    <h1 class="TitleNova" id="whynova"><span>#</span> Why NovaVerse Solutions?</h1>
+                    <h1 class="TitleNova" id="whynova" style="text-align: center;"> Why NovaVerse Solutions?</h1>
                     <p>NovaVerse is dedicated to delivering simple, yet innovative products that enhance your Roblox
                         experience. What sets us apart? We put you first. Our personalized support ensures your needs
                         are met. Join our thriving community or our Roblox Group to shape the future of NovaVerse. We
@@ -80,7 +75,7 @@
                         bugs, share your suggestions, or explore career opportunities!</p>
                 </div>
                 <div>
-                    <h1 class="TitleNova"><span>#</span> Our Products</h1>
+                    <h1 class="TitleNova">Our Products</h1>
                     <div>
                         <div class="scrollable-grid">
                             <div>
@@ -99,7 +94,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <div class="Socials">
             <h1>Our Socials!</h1>
             <div class="social-buttons">
@@ -152,13 +146,6 @@
                         <p class="personTeamName"><a class="link" target="_blank"
                                 href="https://www.roblox.com/users/7560315106/profile">Dani (@daniiixqwx)</a></p>
                         <h3>Vice Chairwoman</h3>
-                    </div>
-                    <div class="personcontainer">
-                        <img src="https://t7.rbxcdn.com/30DAY-AvatarHeadshot-305EEA23DFDAF740DF7140ED724153D5-Png"
-                            alt="Ollie's Profile Picture" id="OlliePFP" class="Ollie">
-                        <p class="personTeamName"><a class="link" target="_blank"
-                                href="https://www.roblox.com/users/1565381600/profile">Toast (@olliebobsg)</a></p>
-                        <h3>Vice Chairman</h3>
                     </div>
                 </div>
                 <h2>Board Of Directors</h2>
@@ -227,7 +214,7 @@
         </div>
         <p>&copy; 2025 NovaVerse Solutions</p>
     </div>
-   
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Lexend:wght@100..900&display=swap');
+
+h1 {
+    font-family: 'Cascadia code', 'Fira Mono';
+}

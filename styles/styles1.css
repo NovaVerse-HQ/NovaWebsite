@@ -10,9 +10,9 @@
     position: fixed;
     right: 0px;
     bottom: 0px;
-    padding: 5px;
+    padding: 5px 8px;
     margin: 1.01%;
-    border-radius: 12px;
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -30,14 +30,63 @@
     color: white; /* Optional: Change text color for better contrast */
   }
   
-  .HeadMenu {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-  }
-  
   .MiddleNova li:hover,
   .SignUpNOVA li:hover {
     background-color: var(--hover-color);
+  }
+
+.CurtainMobile { 
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.CurtainMobile a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+.CurtainMobile a:hover, .CurtainMobile a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .CurtainMobile .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
   }
 
 .HeadMenu {
@@ -48,17 +97,28 @@
     justify-content: space-between; /* Distributes space evenly */
     align-items: center;
     padding: 10px 20px;
-    z-index: 2;
     top: -1px;
     position: sticky;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
     z-index: 2;
 }
+
+.MobileSet {
+    display: none;
+    width: 9.5%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #9b9b9b93;
+    cursor: pointer;
+}
+
 
 .StartNova {
     display: flex;
     align-items: center;
+    text-align: left;
 }
 
 .StartNova img {
@@ -367,7 +427,7 @@
 }
 
 .TiiLxm {
-    background-color: rgba(102, 181, 255, 0.65);
+    background-color: rgb(99, 179, 255);
 }
 
 .Poofbooth {
@@ -376,10 +436,6 @@
 
 .Dani {
     background-color: #5C4033;
-}
-
-.Ollie {
-    background-color: #00b646;
 }
 
 .flapa {
@@ -470,4 +526,18 @@ html {
 .Link:active {
     color: #e8e8e8;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .MiddleNova {
+        display: none;
+    }
+
+    .SignUpNOVA {
+        display: none;
+    }
+
+    .MobileSet {
+        display: flex;
+    }
 }
