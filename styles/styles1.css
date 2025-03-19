@@ -464,6 +464,10 @@
     text-align: center;
 }
 
+.koko {
+    background-color: #db0000;
+}
+
 .link:visited {
     color: #1c1c1c;
     text-decoration: none;
