@@ -2,7 +2,7 @@
     --primary-color: #1c1c1c;
     --secondary-color: #e8e8e8;
     --hover-color: #3e3e3e;
-    --text-font: 'Lexend', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
   }
 
   .HeadService {
@@ -90,7 +90,7 @@
   }
 
 .HeadMenu {
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: rgba(0, 0, 0, 0.8);
     color: #e8e8e8;
     display: flex;
@@ -214,7 +214,7 @@
     font-size: 16px;
     color: white;
     border-radius: 12px;
-    font-family: 'Lexend';
+    font-family: 'Montserrat';
     transition: background-color 0.15s, color 0.15s;
     cursor: pointer;
 }
@@ -228,7 +228,7 @@
     font-size: 16px;
     color: black;
     border-radius: 12px;
-    font-family: 'Lexend';
+    font-family: 'Montserrat';
     cursor: pointer;
 }
 
@@ -302,7 +302,8 @@
     border-radius: 5px;
     border: 0.4px solid black;
     width: 100%;
-    font-family: 'Lexend';
+    font-family: 'Montserrat';
+    font-weight: 600;
     font-size: 16px;
     padding: 10px 10px;
     display: block;
@@ -316,7 +317,8 @@
     border-radius: 5px;
     border: 0.4px solid black;
     width: 100%;
-    font-family: 'Lexend';
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 16px;
     padding: 10px 10px;
     display: block;
@@ -460,6 +462,10 @@
 
 .teams {
     text-align: center;
+}
+
+.koko {
+    background-color: #db0000;
 }
 
 .link:visited {
