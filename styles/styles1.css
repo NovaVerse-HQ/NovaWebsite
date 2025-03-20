@@ -454,8 +454,8 @@
 }
 
 .PartnerInfo .Title {
-    margin: 5px 0px;
-    font-weight: 800;
+    margin: 3px 0px;
+    font-weight: 700;
 }
 
 .PartnerInfo .Owner {
@@ -465,7 +465,7 @@
 
 .BioPart {
     text-align: justify;
-    margin: 2px;
+    margin: 6px;
     font-size: 14px;
 }
 
@@ -496,6 +496,7 @@
 
 .TeamContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
