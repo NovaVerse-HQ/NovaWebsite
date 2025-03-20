@@ -26,7 +26,7 @@
   }
 
   ::selection {
-    background:  #f81ed0; /* Example: Left to right gradient */
+    background:  #1e8ff8; /* Example: Left to right gradient */
     color: white; /* Optional: Change text color for better contrast */
   }
   
@@ -398,6 +398,92 @@
 
 .trackoftheweek {
     text-align: center;
+}
+
+.PartnersDiv {
+    text-align: center;
+    margin: 16px;
+}
+
+.PartnersTitle {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 2px;
+}
+
+.PartnerssubTitle {
+    font-weight: 300;
+    margin: 2px;
+    color: #2b2b2b;
+}
+
+.PartnersFlexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-flow: wrap;
+}
+
+.PartnersFlexBox > div {
+    border: 0.1px solid #161616;
+    width: 280px;
+    border-radius: 13px;
+    padding: 10px;
+    margin: 4px 7px;
+}
+
+.PartnerInfo {
+    align-items: end;
+}
+
+.partnerImg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.PartnerdivGrid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+}
+
+.PartnerInfo {
+    text-align: left;
+    padding: 0px 0px 0px 6px;
+}
+
+.PartnerInfo .Title {
+    margin: 5px 0px;
+    font-weight: 800;
+}
+
+.PartnerInfo .Owner {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.BioPart {
+    text-align: justify;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.PartnerLink:visited, .PartnerLink:hover, .PartnerLink:link {
+    color: #00a2ff;
+}
+
+.PartnerLink:active {
+    color: #9e41ea;
+}
+
+.PartnerLinks {
+    margin: 10px 0px 0px 0px;
+    text-align: left;
+}
+
+.PartnerLinks a {
+    margin: 0px 0px;
 }
 
 .MTTHeader {
